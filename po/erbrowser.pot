@@ -1,0 +1,191 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-16 14:39+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/download.c:133
+#, c-format
+msgid "Unable to open %s"
+msgstr ""
+
+#: ../src/download.c:134
+msgid ""
+"The web browser is unable to display the document. Since it is on the SD "
+"card, you can open it from Documents."
+msgstr ""
+
+#: ../src/download.c:153
+msgid ""
+"The download cannot be started because there is no SD card in this device. "
+"Please insert a card and try again."
+msgstr ""
+
+#: ../src/download.c:206 ../src/download.c:418
+msgid ""
+"An error has occurred while saving the file to the SD card. It is possible "
+"the card is full or locked."
+msgstr ""
+
+#: ../src/download.c:226
+msgid "Download Progress"
+msgstr ""
+
+#: ../src/download.c:236
+#, c-format
+msgid "Downloading '%s'..."
+msgstr ""
+
+#: ../src/download.c:347
+msgid "News"
+msgstr ""
+
+#: ../src/download.c:351
+msgid "Books"
+msgstr ""
+
+#: ../src/download.c:355
+#, c-format
+msgid "'%s' has successfully downloaded and can be found in %s."
+msgstr ""
+
+#: ../src/download.c:414
+msgid "The download has been canceled."
+msgstr ""
+
+#: ../src/download.c:422
+msgid ""
+"A network error has occurred and the download was not completed. Please "
+"check your network connection and try again."
+msgstr ""
+
+#: ../src/download.c:523
+#, c-format
+msgid "Do you wish to stop downloading '%s'?"
+msgstr ""
+
+#: ../src/menu.c:189
+msgid "Adjust Font Size"
+msgstr ""
+
+#: ../src/menu.c:192 ../src/menu.c:199
+msgid "Actions"
+msgstr ""
+
+#: ../src/menu.c:193
+msgid "Small"
+msgstr ""
+
+#: ../src/menu.c:194
+msgid "Medium"
+msgstr ""
+
+#: ../src/menu.c:195
+msgid "Large"
+msgstr ""
+
+#: ../src/menu.c:196
+msgid "X-Large"
+msgstr ""
+
+#: ../src/menu.c:200
+msgid "Previous"
+msgstr ""
+
+#: ../src/menu.c:201
+msgid "Next"
+msgstr ""
+
+#: ../src/menu.c:202
+msgid "Reload Page"
+msgstr ""
+
+#: ../src/menu.c:204
+msgid "Full Screen"
+msgstr ""
+
+#: ../src/menu.c:205
+msgid "Close"
+msgstr ""
+
+#: ../src/view.c:233 ../src/view.c:998
+msgid "Return to the previous page"
+msgstr ""
+
+#: ../src/view.c:807
+msgid "eBook Mall"
+msgstr ""
+
+#: ../src/view.c:983
+msgid "Reload the page"
+msgstr ""
+
+#: ../src/view.c:984
+msgid "The connection has terminated unexpectedly"
+msgstr ""
+
+#: ../src/view.c:985
+msgid ""
+"The signal may be too weak. Try reloading the page by choosing Reload Page "
+"from the Menu."
+msgstr ""
+
+#: ../src/view.c:1003
+msgid "Go to eBook Mall home"
+msgstr ""
+
+#: ../src/view.c:1005
+msgid "Page not found"
+msgstr ""
+
+#: ../src/view.c:1006
+msgid "The page you were trying to retrieve does not exist in the eBook Mall."
+msgstr ""
+
+#: ../src/view.c:1018
+#, c-format
+msgid "Error loading %s"
+msgstr ""
+
+#: ../src/view.c:1021
+msgid "The requested page could not be found. This may have happened because:"
+msgstr ""
+
+#: ../src/view.c:1023
+msgid "The URL is incorrect"
+msgstr ""
+
+#: ../src/view.c:1025
+msgid "The page has been moved or renamed"
+msgstr ""
+
+#: ../src/view.c:1027
+msgid "The page no longer exists"
+msgstr ""
+
+#: ../src/view.c:1109
+#, c-format
+msgid ""
+"This link cannot be opened because the reader is not able to open internet "
+"links."
+msgstr ""
+
+#: ../src/view.c:1726
+msgid "Loading page..."
+msgstr ""
+
+#: ../src/view.c:1727
+msgid "Cancel"
+msgstr ""

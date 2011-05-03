@@ -1,0 +1,41 @@
+#
+# Style definitions
+#
+
+style "irex-mall-button"
+{
+    GtkToolButton::icon-spacing = 3
+}
+widget "*.irex-mall-button" style "irex-mall-button"
+
+style "toolbar"
+{
+    GtkToolbar::internal-padding = 5
+    bg[NORMAL] = "#bbbbbb" 
+}
+class "GtkToolbar" style "toolbar"
+
+#
+#  content view
+#
+style "contentview-irex-settings"
+{
+    fg[NORMAL]     = "#aaaaaa"    # border colour
+    bg[SELECTED]   = "black"      # cursor colour
+    text[SELECTED] = "black"
+    base[NORMAL]   = "white"      # fill colour for selected item
+    base[SELECTED] = "white"      # fill colour for selected item
+    base[ACTIVE]   = "white"      # fill colour for selected item
+    font_name      = "Sans 9"
+
+    # column-spacing       : pixels between columns
+    # horizontal-separator : see GtkTreeView, best set to zero
+    # vertical-separator   : see GtkTreeView, additional space above/below each item
+    # focus-line-width     : see GtkWidget,   pixels reserved for cursor around item
+    erGtkListView::column-spacing       = 10
+    erGtkListView::horizontal-separator =  6
+    erGtkListView::vertical-separator   =  12
+    erGtkListView::focus-line-width     =  4
+}
+widget "*.contentview-irex-settings" style "contentview-irex-settings"
+

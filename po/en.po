@@ -1,0 +1,203 @@
+# English translations for erbrowser package.
+# Copyright (C) 2010 THE erbrowser'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the erbrowser package.
+# Automatically generated, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: erbrowser 4.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-16 14:39+0200\n"
+"PO-Revision-Date: 2010-04-16 14:39+0200\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/download.c:133
+#, c-format
+msgid "Unable to open %s"
+msgstr "Unable to open %s"
+
+#: ../src/download.c:134
+msgid ""
+"The web browser is unable to display the document. Since it is on the SD "
+"card, you can open it from Documents."
+msgstr ""
+"The web browser is unable to display the document. Since it is on the SD "
+"card, you can open it from Documents."
+
+#: ../src/download.c:153
+msgid ""
+"The download cannot be started because there is no SD card in this device. "
+"Please insert a card and try again."
+msgstr ""
+"The download cannot be started because there is no SD card in this device. "
+"Please insert a card and try again."
+
+#: ../src/download.c:206 ../src/download.c:418
+msgid ""
+"An error has occurred while saving the file to the SD card. It is possible "
+"the card is full or locked."
+msgstr ""
+"An error has occurred while saving the file to the SD card. It is possible "
+"the card is full or locked."
+
+#: ../src/download.c:226
+msgid "Download Progress"
+msgstr "Download Progress"
+
+#: ../src/download.c:236
+#, c-format
+msgid "Downloading '%s'..."
+msgstr "Downloading '%s'..."
+
+#: ../src/download.c:347
+msgid "News"
+msgstr "News"
+
+#: ../src/download.c:351
+msgid "Books"
+msgstr "Books"
+
+#: ../src/download.c:355
+#, c-format
+msgid "'%s' has successfully downloaded and can be found in %s."
+msgstr "'%s' has successfully downloaded and can be found in %s."
+
+#: ../src/download.c:414
+msgid "The download has been canceled."
+msgstr "The download has been canceled."
+
+#: ../src/download.c:422
+msgid ""
+"A network error has occurred and the download was not completed. Please "
+"check your network connection and try again."
+msgstr ""
+"A network error has occurred and the download was not completed. Please "
+"check your network connection and try again."
+
+#: ../src/download.c:523
+#, c-format
+msgid "Do you wish to stop downloading '%s'?"
+msgstr "Do you wish to stop downloading '%s'?"
+
+#: ../src/menu.c:189
+msgid "Adjust Font Size"
+msgstr "Adjust Font Size"
+
+#: ../src/menu.c:192 ../src/menu.c:199
+msgid "Actions"
+msgstr "Actions"
+
+#: ../src/menu.c:193
+msgid "Small"
+msgstr "Small"
+
+#: ../src/menu.c:194
+msgid "Medium"
+msgstr "Medium"
+
+#: ../src/menu.c:195
+msgid "Large"
+msgstr "Large"
+
+#: ../src/menu.c:196
+msgid "X-Large"
+msgstr "X-Large"
+
+#: ../src/menu.c:200
+msgid "Previous"
+msgstr "Previous"
+
+#: ../src/menu.c:201
+msgid "Next"
+msgstr "Next"
+
+#: ../src/menu.c:202
+msgid "Reload Page"
+msgstr "Reload Page"
+
+#: ../src/menu.c:204
+msgid "Full Screen"
+msgstr "Full Screen"
+
+#: ../src/menu.c:205
+msgid "Close"
+msgstr "Close"
+
+#: ../src/view.c:233 ../src/view.c:998
+msgid "Return to the previous page"
+msgstr "Return to the previous page"
+
+#: ../src/view.c:807
+msgid "eBook Mall"
+msgstr "eBook Mall"
+
+#: ../src/view.c:983
+msgid "Reload the page"
+msgstr "Reload the page"
+
+#: ../src/view.c:984
+msgid "The connection has terminated unexpectedly"
+msgstr "The connection has terminated unexpectedly"
+
+#: ../src/view.c:985
+msgid ""
+"The signal may be too weak. Try reloading the page by choosing Reload Page "
+"from the Menu."
+msgstr ""
+"The signal may be too weak. Try reloading the page by choosing Reload Page "
+"from the Menu."
+
+#: ../src/view.c:1003
+msgid "Go to eBook Mall home"
+msgstr "Go to eBook Mall home"
+
+#: ../src/view.c:1005
+msgid "Page not found"
+msgstr "Page not found"
+
+#: ../src/view.c:1006
+msgid "The page you were trying to retrieve does not exist in the eBook Mall."
+msgstr "The page you were trying to retrieve does not exist in the eBook Mall."
+
+#: ../src/view.c:1018
+#, c-format
+msgid "Error loading %s"
+msgstr "Error loading %s"
+
+#: ../src/view.c:1021
+msgid "The requested page could not be found. This may have happened because:"
+msgstr "The requested page could not be found. This may have happened because:"
+
+#: ../src/view.c:1023
+msgid "The URL is incorrect"
+msgstr "The URL is incorrect"
+
+#: ../src/view.c:1025
+msgid "The page has been moved or renamed"
+msgstr "The page has been moved or renamed"
+
+#: ../src/view.c:1027
+msgid "The page no longer exists"
+msgstr "The page no longer exists"
+
+#: ../src/view.c:1109
+#, c-format
+msgid ""
+"This link cannot be opened because the reader is not able to open internet "
+"links."
+msgstr ""
+"This link cannot be opened because the reader is not able to open internet "
+"links."
+
+#: ../src/view.c:1726
+msgid "Loading page..."
+msgstr "Loading page..."
+
+#: ../src/view.c:1727
+msgid "Cancel"
+msgstr "Cancel"

@@ -1,0 +1,7 @@
+# List of source files which contain translatable strings.
+[encoding: UTF-8]
+src/download.c
+src/ipc.c
+src/main.c
+src/menu.c
+src/view.c

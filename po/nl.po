@@ -1,0 +1,216 @@
+# Dutch translations for erbrowser package.
+# Copyright (C) 2009 THE erbrowser'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the erbrowser package.
+# Automatically generated, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: erbrowser 1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-16 14:39+0200\n"
+"PO-Revision-Date: 2010-05-18 16:06+0100\n"
+"Last-Translator: Chris <chris.bouwmeester@irextechnologies.com>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/download.c:133
+#, c-format
+msgid "Unable to open %s"
+msgstr "Kan %s niet openen"
+
+#: ../src/download.c:134
+msgid ""
+"The web browser is unable to display the document. Since it is on the SD "
+"card, you can open it from Documents."
+msgstr ""
+"De Webbrowser kan het document niet weergeven. Aangezien het zich op de SD-"
+"kaart bevindt, kunt u het openen vanaf Documenten."
+
+#: ../src/download.c:153
+msgid ""
+"The download cannot be started because there is no SD card in this device. "
+"Please insert a card and try again."
+msgstr ""
+"Het downloaden kan niet worden gestart omdat er geen SD-kaart in dit "
+"apparaat zit. Plaats een kaart en probeer nog eens."
+
+#: ../src/download.c:206 ../src/download.c:418
+msgid ""
+"An error has occurred while saving the file to the SD card. It is possible "
+"the card is full or locked."
+msgstr ""
+"Er is een fout opgetreden bij het opslaan van het bestand op de SD-kaart. "
+"Misschien is de kaart vol of vergrendeld."
+
+#: ../src/download.c:226
+msgid "Download Progress"
+msgstr "Voortgang downloaden"
+
+#: ../src/download.c:236
+#, c-format
+msgid "Downloading '%s'..."
+msgstr "Bezig met downloaden van '%s'"
+
+#: ../src/download.c:347
+msgid "News"
+msgstr "Nieuws"
+
+#: ../src/download.c:351
+msgid "Books"
+msgstr "Boeken"
+
+#: ../src/download.c:355
+#, c-format
+msgid "'%s' has successfully downloaded and can be found in %s."
+msgstr "'%s' werd met succes gedownload en is te vinden in %s."
+
+#: ../src/download.c:414
+msgid "The download has been canceled."
+msgstr "Het downloaden werd geannuleerd."
+
+#: ../src/download.c:422
+msgid ""
+"A network error has occurred and the download was not completed. Please "
+"check your network connection and try again."
+msgstr ""
+"Er is een netwerkfout opgetreden en het downloaden werd niet voltooid. "
+"Controleer de netwerkverbinding en probeer nog eens."
+
+#: ../src/download.c:523
+#, c-format
+msgid "Do you wish to stop downloading '%s'?"
+msgstr "Wilt u stoppen met downloaden van '%s\"?"
+
+#: ../src/menu.c:189
+msgid "Adjust Font Size"
+msgstr "Tekengrootte instellen"
+
+#: ../src/menu.c:192 ../src/menu.c:199
+msgid "Actions"
+msgstr "Acties"
+
+#: ../src/menu.c:193
+msgid "Small"
+msgstr "Klein"
+
+#: ../src/menu.c:194
+msgid "Medium"
+msgstr "Middelgroot"
+
+#: ../src/menu.c:195
+msgid "Large"
+msgstr "Groot"
+
+#: ../src/menu.c:196
+msgid "X-Large"
+msgstr "Extra groot"
+
+#: ../src/menu.c:200
+msgid "Previous"
+msgstr "Vorige"
+
+#: ../src/menu.c:201
+msgid "Next"
+msgstr "Volgende"
+
+#: ../src/menu.c:202
+msgid "Reload Page"
+msgstr "Pagina herladen"
+
+#: ../src/menu.c:204
+msgid "Full Screen"
+msgstr "Volledig scherm"
+
+#: ../src/menu.c:205
+msgid "Close"
+msgstr "Afsluiten"
+
+#: ../src/view.c:233 ../src/view.c:998
+msgid "Return to the previous page"
+msgstr "Terug naar vorige pagina"
+
+#: ../src/view.c:807
+msgid "eBook Mall"
+msgstr "eBook Mall"
+
+#: ../src/view.c:983
+msgid "Reload the page"
+msgstr "Pagina herladen"
+
+#: ../src/view.c:984
+msgid "The connection has terminated unexpectedly"
+msgstr "The verbinding is onverwachts verbroken"
+
+#: ../src/view.c:985
+msgid ""
+"The signal may be too weak. Try reloading the page by choosing Reload Page "
+"from the Menu."
+msgstr ""
+"Het netwerksignaal is te zwak. Probeer de pagina te herladen via "
+"\"Pagina herladen\" in het menu."
+
+#: ../src/view.c:1003
+msgid "Go to eBook Mall home"
+msgstr "Naar index eBook Mall"
+
+#: ../src/view.c:1005
+msgid "Page not found"
+msgstr "Pagina niet gevonden"
+
+#: ../src/view.c:1006
+msgid "The page you were trying to retrieve does not exist in the eBook Mall."
+msgstr "De pagina die u probeert op te halen bestaat niet in de eBook Mall."
+
+#: ../src/view.c:1018
+#, c-format
+msgid "Error loading %s"
+msgstr "Fout bij het laden van %s"
+
+#: ../src/view.c:1021
+msgid "The requested page could not be found. This may have happened because:"
+msgstr ""
+"De gevraagde pagina kon niet worden gevonden. Dat kan aan het volgende te "
+"wijten zijn: "
+
+#: ../src/view.c:1023
+msgid "The URL is incorrect"
+msgstr "De URL is niet juist"
+
+#: ../src/view.c:1025
+msgid "The page has been moved or renamed"
+msgstr "De pagina is verhuisd of de naam ervan werd veranderd"
+
+#: ../src/view.c:1027
+msgid "The page no longer exists"
+msgstr "De pagina bestaat niet meer"
+
+#: ../src/view.c:1109
+#, c-format
+msgid ""
+"This link cannot be opened because the reader is not able to open internet "
+"links."
+msgstr ""
+"Deze link kan niet worden geopend, de reader kan geen internet links openen."
+
+#: ../src/view.c:1726
+msgid "Loading page..."
+msgstr "Bezig met het laden van pagina..."
+
+#: ../src/view.c:1727
+msgid "Cancel"
+msgstr "Annuleren"
+
+#~ msgid "Zooming"
+#~ msgstr "In- of uitzoomen"
+
+#~ msgid "Zoom In"
+#~ msgstr "Inzoomen"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Uitzoomen"
+
+#~ msgid "Reset Zoom"
+#~ msgstr "Zoom terugstellen"

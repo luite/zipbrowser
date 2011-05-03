@@ -1,0 +1,214 @@
+# Italian translations for erbrowser package.
+# Copyright (C) 2009 THE erbrowser'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the erbrowser package.
+# Automatically generated, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: erbrowser 1.9\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-04-16 14:39+0200\n"
+"PO-Revision-Date: 2009-12-30 14:01+0100\n"
+"Last-Translator: Laura <helpfe@tin.it>\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/download.c:133
+#, c-format
+msgid "Unable to open %s"
+msgstr "Impossibile aprire %s"
+
+#: ../src/download.c:134
+msgid ""
+"The web browser is unable to display the document. Since it is on the SD "
+"card, you can open it from Documents."
+msgstr ""
+"Impossibile visualizzare il documento sul browser Web. Se è salvato sulla "
+"scheda SD, è possibile aprilo da documenti."
+
+#: ../src/download.c:153
+msgid ""
+"The download cannot be started because there is no SD card in this device. "
+"Please insert a card and try again."
+msgstr ""
+"Impossibile avviare il download poichè non è presente una scheda SD nel "
+"dispositivo. Inserire una scheda e riprovare."
+
+#: ../src/download.c:206 ../src/download.c:418
+msgid ""
+"An error has occurred while saving the file to the SD card. It is possible "
+"the card is full or locked."
+msgstr ""
+"Si è verificato un errore durante il salvataggio del file sulla scheda SD. "
+"La scheda potrebbe essere piena o bloccata."
+
+#: ../src/download.c:226
+msgid "Download Progress"
+msgstr "Stato download"
+
+#: ../src/download.c:236
+#, c-format
+msgid "Downloading '%s'..."
+msgstr "Download in corso '%s'..."
+
+#: ../src/download.c:347
+msgid "News"
+msgstr "News"
+
+#: ../src/download.c:351
+msgid "Books"
+msgstr "Libri"
+
+#: ../src/download.c:355
+#, c-format
+msgid "'%s' has successfully downloaded and can be found in %s."
+msgstr "'%s' ha completato il download e si trova in %s."
+
+#: ../src/download.c:414
+msgid "The download has been canceled."
+msgstr "Il download è stato annullato."
+
+#: ../src/download.c:422
+msgid ""
+"A network error has occurred and the download was not completed. Please "
+"check your network connection and try again."
+msgstr ""
+"Si è verificato un errore di rete e il download non è stato completato. "
+"Controllare la connessione di rete quindi riprovare."
+
+#: ../src/download.c:523
+#, c-format
+msgid "Do you wish to stop downloading '%s'?"
+msgstr "Interrompere il download '%s'?"
+
+#: ../src/menu.c:189
+msgid "Adjust Font Size"
+msgstr "Modifica dimensione carattere"
+
+#: ../src/menu.c:192 ../src/menu.c:199
+msgid "Actions"
+msgstr "Azioni"
+
+#: ../src/menu.c:193
+msgid "Small"
+msgstr "Piccolo"
+
+#: ../src/menu.c:194
+msgid "Medium"
+msgstr "Medio"
+
+#: ../src/menu.c:195
+msgid "Large"
+msgstr "Grande"
+
+#: ../src/menu.c:196
+msgid "X-Large"
+msgstr "Molto grande"
+
+#: ../src/menu.c:200
+msgid "Previous"
+msgstr "Precedente"
+
+#: ../src/menu.c:201
+msgid "Next"
+msgstr "Successivo"
+
+#: ../src/menu.c:202
+msgid "Reload Page"
+msgstr "Ricarica pagina"
+
+#: ../src/menu.c:204
+msgid "Full Screen"
+msgstr "Schermo intero"
+
+#: ../src/menu.c:205
+msgid "Close"
+msgstr ""
+
+#: ../src/view.c:233 ../src/view.c:998
+msgid "Return to the previous page"
+msgstr "Ritorna alla pagina precedente"
+
+#: ../src/view.c:807
+msgid "eBook Mall"
+msgstr "eBook Mall"
+
+#: ../src/view.c:983
+#, fuzzy
+msgid "Reload the page"
+msgstr "Ricarica pagina"
+
+#: ../src/view.c:984
+msgid "The connection has terminated unexpectedly"
+msgstr ""
+
+#: ../src/view.c:985
+msgid ""
+"The signal may be too weak. Try reloading the page by choosing Reload Page "
+"from the Menu."
+msgstr ""
+
+#: ../src/view.c:1003
+msgid "Go to eBook Mall home"
+msgstr "Vai alla pagina principale eBook Mall"
+
+#: ../src/view.c:1005
+msgid "Page not found"
+msgstr "Pagina non trovata"
+
+#: ../src/view.c:1006
+msgid "The page you were trying to retrieve does not exist in the eBook Mall."
+msgstr "La pagina che si sta tendando di caricare non esiste su eBook Mall."
+
+#: ../src/view.c:1018
+#, c-format
+msgid "Error loading %s"
+msgstr "Errore durante il caricamento %s"
+
+#: ../src/view.c:1021
+msgid "The requested page could not be found. This may have happened because:"
+msgstr ""
+"La pagina richiesta non è stata trovata. Il problema potrebbe essere causato "
+"da:"
+
+#: ../src/view.c:1023
+msgid "The URL is incorrect"
+msgstr "URL non corretto"
+
+#: ../src/view.c:1025
+msgid "The page has been moved or renamed"
+msgstr "La pagina è stata spostata o rinominata"
+
+#: ../src/view.c:1027
+msgid "The page no longer exists"
+msgstr "La pagina non esiste più"
+
+#: ../src/view.c:1109
+#, c-format
+msgid ""
+"This link cannot be opened because the reader is not able to open internet "
+"links."
+msgstr ""
+
+#: ../src/view.c:1726
+msgid "Loading page..."
+msgstr "Caricamento pagina..."
+
+#: ../src/view.c:1727
+msgid "Cancel"
+msgstr "Annulla"
+
+#~ msgid "Zooming"
+#~ msgstr "Zoom"
+
+#~ msgid "Zoom In"
+#~ msgstr "Ingrandisci"
+
+#~ msgid "Zoom Out"
+#~ msgstr "Riduci"
+
+#~ msgid "Reset Zoom"
+#~ msgstr "Reimposta zoom"

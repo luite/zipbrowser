@@ -1,0 +1,16 @@
+* {
+    max-width: 100% !important;
+}
+
+td img {
+    max-width: none !important;
+}
+
+a:focus, input[type="image"]:focus {
+    outline: 3px solid black;
+    outline-radius: 8px;
+}
+
+html {
+    -webkit-user-select: none;
+}
